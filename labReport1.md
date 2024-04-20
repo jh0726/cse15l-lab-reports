@@ -50,7 +50,7 @@
 
 **Absolute Path:** `/Users/jh0_726`
 
-**Explanation of Output:** `ls` with a path to directory as an argument lists the files and folders of specific directory (`/Users/jh0_726`). Files and folders found in Finder such as Applications, Desktop, and Documents are the examples that are listed as the output. 
+**Explanation of Output:** `ls` with a path to directory as an argument lists the files and folders of specific directory (`/Users/jh0_726/cse15l-lab-reports`). Files and folders found in Finder such as Applications, Desktop, and Documents are the examples that are listed as the output. 
 
 **Error:** `ls` with a path to directory as an argument successfully list files and folders of specific path (`/Users/jh0_726`), indicating that there is no error.
 
