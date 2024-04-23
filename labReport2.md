@@ -97,14 +97,59 @@ public class Server {
 }
 ```
 
+---
 
+![Screenshot](add-message1.png)
+*Screenshot 1*
 
+### Method(s)
+`handleRequest(URI url)` method was called when request was made. 
+With the help from `getPath()` method from `URI` class as well as `.equals()` and `.contains()` methods, the `handleRequest (URI url)` method could check path of the link and process based on the query parameters. 
 
+### Argument(s)
+`url` argument with the type of `URI` was relevant, providing the web server link. The web server link "`localhost:2930/add-message?s=Hello&user=jpolitz`" was passed in to the `url` argument. 
 
+### Field(s)
+`chatMessage` field with the type of `String` was relevant, representing the accumulated output message. In this case, the `chatMessage` field hold a value of an empty string. 
 
+### Change in Field Value(s)
+`chatMessage` field, which used to hold empty string as a value, was updated by appending the message (*"jpolitz: Hello"*). Now, the `chatMessage` field stores a `String` value of "`jpolitz: Hello\n`". 
 
+---
 
+![Screenshot](add-message2.png)
+*Screenshot2*
+
+### Method(s)
+`handleRequest(URI url)` method was called when request was made. 
+With the help from `getPath()` method from `URI` class as well as `.equals()` and `.contains()` methods, the `handleRequest (URI url)` method could check path of the link and process based on the query parameters. 
+
+### Argument(s)
+`url` argument with the type of `URI` was relevant, providing the web server link. The web server link "`localhost:2930/add-message?s=How%20are%20you&user=yash`" was passed in to the `url` argument. 
+
+### Field(s)
+`chatMessage` field with the type of `String` was relevant, representing the accumulated output message. In this case, the `chatMessage` field of previous message, which was "`jpolitz: Hello\n`".
+
+### Change in Field Value(s)
+`chatMessage` field, which used to hold previous message, was updated by appending the current message (*"yash: How are you"*). Now, the `chatMessage` field stores a `String` value of "`jpolitz: Hello\nyash: How are you\n`". 
+
+--- 
+# Part 2
+### `ls` with the absolute path to the private key to log in to ieng6 server 
+![Screenshot](sshPrivateKey.png)
+*Screenshot3*
+
+### `ls` with the absolute path to the public key to log in to ieng6 server
+![Screenshot](sshPublicKey.png)
+*Screenshot4*
+
+### Terminal interaction logging into ieng6 account without being asked for a password
+![Screenshot](sshLogInNoPassword.png)
+*Screenshot5*
+
+---
+# Part 3
 
 I used to not know how to launch a web server and what path functions in the url. 
 Before lab 2, the url link, for me, was just a combination of random alphabets after the domain. 
-However, after the lab, I learned how to create a web server from terminal using curl command and interact with the server with several path parameters. 
+However, after the lab, I learned how to create a web server from terminal using `curl` command and interact with the server with several path parameters. 
