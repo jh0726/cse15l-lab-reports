@@ -1374,14 +1374,14 @@ jh0_726@simjaehos-MacBook-Pro technical % find ~/docsearch/technical/government 
 
 : finds and prints the file(s) inside the directory that are not specific file format
 
-3-1) `find ~/docsearch/technical/biomed -not -name "*.txt"` 
+4-1) `find ~/docsearch/technical/biomed -not -name "*.txt"` 
   * Output:
 ```
 jh0_726@simjaehos-MacBook-Pro technical % find ~/docsearch/technical/biomed -not -name "*.txt"
 /Users/jh0_726/docsearch/technical/biomed
 ```
 
-3-2) `find ~/docsearch/technical/government -not -name "*.txt"`
+4-2) `find ~/docsearch/technical/government -not -name "*.txt"`
 * Output:
 ```
 jh0_726@simjaehos-MacBook-Pro technical % find ~/docsearch/technical/government -not -name "*.txt"
