@@ -1265,3 +1265,131 @@ jh0_726@simjaehos-MacBook-Pro technical % find ~/docsearch/technical/government 
 /Users/jh0_726/docsearch/technical/government/Media/Library_Lawyers.txt
 /Users/jh0_726/docsearch/technical/government/Media/Lawyer_Web_Survey.txt
 ```
+
+**3. `find ~/docsearch/technical/__(1)__ -type f -size +__(2)__k`**               *(1: specific path that contains .txt files / 2: size of the file as an integer)*
+
+: finds and prints the file(s) that that are greater than the input size 
+
+3-1) `find ~/docsearch/technical/biomed -type f -size +50k` 
+  * Output:
+```
+jh0_726@simjaehos-MacBook-Pro technical % find ~/docsearch/technical/biomed -type f -size +50k 
+/Users/jh0_726/docsearch/technical/biomed/1476-069X-2-4.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2003-4-5-r34.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-9-research0043.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2001-2-7-research0025.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2253-2-5.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2003-4-4-r26.txt
+/Users/jh0_726/docsearch/technical/biomed/1477-7827-1-13.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2003-4-7-r42.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2121-3-16.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2001-2-11-research0046.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-7-research0036.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2003-4-7-r43.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2121-3-15.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-9-research0045.txt
+/Users/jh0_726/docsearch/technical/biomed/1472-6904-2-5.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-11-research0059.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-11-research0065.txt
+/Users/jh0_726/docsearch/technical/biomed/1472-6807-3-1.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-213X-3-3.txt
+/Users/jh0_726/docsearch/technical/biomed/1472-6904-3-1.txt
+/Users/jh0_726/docsearch/technical/biomed/1476-072X-2-4.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2003-4-2-r14.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2105-2-8.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-12-research0079.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2091-3-31.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-12-research0086.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2105-3-14.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-12-research0083.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2003-4-3-r17.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-12-research0072.txt
+/Users/jh0_726/docsearch/technical/biomed/1475-4924-1-10.txt
+/Users/jh0_726/docsearch/technical/biomed/1476-511X-1-2.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-12-research0071.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2105-3-18.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2121-2-10.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2202-3-1.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2091-3-14.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2001-3-1-research0001.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-12-research0088.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2121-3-25.txt
+/Users/jh0_726/docsearch/technical/biomed/1472-6882-1-10.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2210-1-7.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2121-3-30.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2002-3-10-research0052.txt
+/Users/jh0_726/docsearch/technical/biomed/gb-2003-4-2-r9.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2091-3-4.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2105-3-2.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2164-4-4.txt
+/Users/jh0_726/docsearch/technical/biomed/1477-7827-1-36.txt
+/Users/jh0_726/docsearch/technical/biomed/1471-2199-2-4.txt
+/Users/jh0_726/docsearch/technical/biomed/1476-069X-2-9.txt
+```
+
+3-2) `find ~/docsearch/technical/government -type f -size +50k` 
+  * Output:
+```
+jh0_726@simjaehos-MacBook-Pro technical % find ~/docsearch/technical/government -type f -size +50k
+/Users/jh0_726/docsearch/technical/government/About_LSC/Strategic_report.txt
+/Users/jh0_726/docsearch/technical/government/About_LSC/commission_report.txt
+/Users/jh0_726/docsearch/technical/government/About_LSC/State_Planning_Report.txt
+/Users/jh0_726/docsearch/technical/government/Env_Prot_Agen/multi102902.txt
+/Users/jh0_726/docsearch/technical/government/Env_Prot_Agen/section-by-section_summary.txt
+/Users/jh0_726/docsearch/technical/government/Env_Prot_Agen/jeffordslieberm.txt
+/Users/jh0_726/docsearch/technical/government/Env_Prot_Agen/ctf7-10.txt
+/Users/jh0_726/docsearch/technical/government/Env_Prot_Agen/ctf1-6.txt
+/Users/jh0_726/docsearch/technical/government/Env_Prot_Agen/ctm4-10.txt
+/Users/jh0_726/docsearch/technical/government/Env_Prot_Agen/atx1-6.txt
+/Users/jh0_726/docsearch/technical/government/Env_Prot_Agen/bill.txt
+/Users/jh0_726/docsearch/technical/government/Env_Prot_Agen/tech_adden.txt
+/Users/jh0_726/docsearch/technical/government/Alcohol_Problems/Session3-PDF.txt
+/Users/jh0_726/docsearch/technical/government/Alcohol_Problems/Session4-PDF.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/d0269g.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/Testimony_cg00010t.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/GovernmentAuditingStandards_yb2002ed.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/Sept27-2002_d02966.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/d01376g.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/Statements_Feb28-1997_volume.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/pe1019.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/gg96118.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/July11-2001_gg00172r.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/d03419sp.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/Sept14-2002_d011070.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/d03232sp.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/June30-2000_gg00135r.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/d01591sp.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/Oct15-2001_d0224.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/im814.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/ai00134.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/Testimony_Jul17-2002_d02957t.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/ai9868.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/May1998_ai98068.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/d02701.txt
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office/ai2132.txt
+/Users/jh0_726/docsearch/technical/government/Post_Rate_Comm/Mitchell_6-17-Mit.txt
+```
+
+**4. `find ~/docsearch/technical/__(1)__ -not -name "*.__(2)__"`**               *(1: specific path that contains .txt files / 2: specific file format)*
+
+: finds and prints the file(s) inside the directory that are not specific file format
+
+3-1) `find ~/docsearch/technical/biomed -not -name "*.txt"` 
+  * Output:
+```
+jh0_726@simjaehos-MacBook-Pro technical % find ~/docsearch/technical/biomed -not -name "*.txt"
+/Users/jh0_726/docsearch/technical/biomed
+```
+
+3-2) `find ~/docsearch/technical/government -not -name "*.txt"`
+* Output:
+```
+jh0_726@simjaehos-MacBook-Pro technical % find ~/docsearch/technical/government -not -name "*.txt"
+/Users/jh0_726/docsearch/technical/government
+/Users/jh0_726/docsearch/technical/government/About_LSC
+/Users/jh0_726/docsearch/technical/government/Env_Prot_Agen
+/Users/jh0_726/docsearch/technical/government/Alcohol_Problems
+/Users/jh0_726/docsearch/technical/government/Gen_Account_Office
+/Users/jh0_726/docsearch/technical/government/Post_Rate_Comm
+/Users/jh0_726/docsearch/technical/government/Media
+```
