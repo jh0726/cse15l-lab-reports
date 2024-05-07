@@ -1231,6 +1231,7 @@ jh0_726@simjaehos-MacBook-Pro technical % find ~/docsearch/technical/government 
 /Users/jh0_726/docsearch/technical/government/Media/Legal_Aid_campaign.txt
 /Users/jh0_726/docsearch/technical/government/Media/Aid_Gets_7_Million.txt
 ```
+*** 
 
 **2. `find ~/docsearch/technical/__(1)__ -name "*__(2)__*"`**               *(1: specific path that contains .txt files / 2: string that the name of the file contains)*
 
@@ -1265,6 +1266,8 @@ jh0_726@simjaehos-MacBook-Pro technical % find ~/docsearch/technical/government 
 /Users/jh0_726/docsearch/technical/government/Media/Library_Lawyers.txt
 /Users/jh0_726/docsearch/technical/government/Media/Lawyer_Web_Survey.txt
 ```
+
+***
 
 **3. `find ~/docsearch/technical/__(1)__ -type f -size +__(2)__k`**               *(1: specific path that contains .txt files / 2: size of the file as an integer)*
 
@@ -1369,6 +1372,8 @@ jh0_726@simjaehos-MacBook-Pro technical % find ~/docsearch/technical/government 
 /Users/jh0_726/docsearch/technical/government/Gen_Account_Office/ai2132.txt
 /Users/jh0_726/docsearch/technical/government/Post_Rate_Comm/Mitchell_6-17-Mit.txt
 ```
+
+*** 
 
 **4. `find ~/docsearch/technical/__(1)__ -not -name "*.__(2)__"`**               *(1: specific path that contains .txt files / 2: specific file format)*
 
