@@ -68,3 +68,4 @@ Used up arrow key two times to reuse the command line I used in 2 previous comma
 ### git `<space>` com `<tab>` `<space>` -m `<space>` "Error Fixed" `<space>`
 ![Screenshot](gitPushCommit.png)
 'git add .' command adds entire change in the working directory. 'git commit' saves changes to my git repository. 
+* `<tab>`: *automatically fills out the remaining command line. In this case automatically completed 'clone'*
