@@ -47,19 +47,19 @@ In order to add correct integer after the 'index', changed to insertion mode by 
 
 ### **2 `<esc>`**
 ![Screenshot](fixAndEscape.png)
-Added 2 after the index to fix the error. Pressed escape key to change it back to the default mode from the insertion mode. 
-* `<esc>`: escape from the insertion mode and goes back to the default. 
+Added 2 after the index to fix the error (changing index1 to index2). Pressed escape key to change it back to the default mode from the insertion mode. 
+* `<esc>`: escape from the current mode and goes back to the default. 
 
 ### **:wq `<enter>`**
-In order to save the edits I made in the ListExamples,java and exit, used ':wq' vim command. 
+In order to save the edits I made in the ListExamples,java and exit, used ':wq' vim command. `:wq` represents save and exit. 
 
 ***
 
 ## Run the Tests, Demonstrating that They Now Succeed
 ### `<up>` `<up>` `<enter>`
 ![Screenshot](lab4SuccessTest.png)
-Used up arrow key two times to reuse the command line I used in 2 previous command line. 
-* `<up>`: up arrow key allows to access the command line I used in previous steps. The number of time I use, more previous command line I can access to. 
+Used up arrow key two times to reuse the command line I used in 2 previous command line, which was `bash test.sh`. 
+* `<up>`: up arrow key allows to access the command line I used in previous steps rather than typing the entire command. The number of time I use the up arrow, the more previous command line I can access to. 
 
 *** 
 
@@ -67,5 +67,5 @@ Used up arrow key two times to reuse the command line I used in 2 previous comma
 ### git `<space>` ad `<tab>` `<enter>`
 ### git `<space>` com `<tab>` `<space>` -m `<space>` "Error Fixed" `<space>`
 ![Screenshot](gitPushCommit.png)
-'git add .' command adds entire change in the working directory. 'git commit' saves changes to my git repository. 
+'git add .' command adds entire change in the working directory to the staging area. The updates in staging area are being sent and updated at my git repository through the 'git commit' command. In order to successfully commit, I had to include a message after '-m'. The message I chose was 'Error Fixed' to indicate that the error that caused the file to not compile correctly was fixed. 
 * `<tab>`: *automatically fills out the remaining command line. In this case automatically completed 'clone'*
