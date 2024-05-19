@@ -1,4 +1,4 @@
-<img width="561" alt="image" src="https://github.com/jh0726/cse15l-lab-reports/assets/166374037/db3973b3-b967-41d2-894f-ce9a470eb638">## Log in to ieng6
+## Log in to ieng6
 ### **ssh `<space>` j7shim@ieng6.ucsd.edu `<enter>`**
 ![Screenshot](ieng6LogIn.png)
 Logged in to the ieng6 server with private key I have on my MacBook. 
