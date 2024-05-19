@@ -56,7 +56,15 @@ In order to save the edits I made in the ListExamples,java and exit, used ':wq' 
 ***
 
 ## Run the Tests, Demonstrating that They Now Succeed
+### `<up>` `<up>` `<enter>`
+![Screenshot](lab4SuccessTest.png)
+Used up arrow key two times to reuse the command line I used in 2 previous command line. 
+* `<up>`: up arrow key allows to access the command line I used in previous steps. The number of time I use, more previous command line I can access to. 
 
+*** 
 
 ## Commit and Push the Resulting Change to My Github Account (Any Commit Message!)
-
+### git `<space>` ad `<tab>` `<enter>`
+### git `<space>` com `<tab>` `<space>` -m `<space>` "Error Fixed" `<space>`
+![Screenshot](gitPushCommit.png)
+'git add .' command adds entire change in the working directory. 'git commit' saves changes to my git repository. 
